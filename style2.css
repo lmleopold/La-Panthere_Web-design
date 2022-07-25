@@ -506,6 +506,18 @@ button {
     box-shadow: none;
 }
 
+#name{
+    max-width: 180px;
+}
+
+#email{
+    max-width: 220px;
+}
+
+#input_504{
+    max-width: 260px;
+}
+
 .scrollToTop {
     width: 40px;
     height: 40px;
@@ -1078,6 +1090,8 @@ h4 {
     .bg-presentation {
         background-image: none;
     }
+
+    .tight-width-whitespace {
+        max-width: 100%;
+    }
 }
-
-
