@@ -10,11 +10,12 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    /* outline: none!important; */
 }
 
-a:hover {
+a:hover, a:active, a:focus {
     text-decoration: none;
+    font-size: 120%;
     cursor: pointer;
 }
 
@@ -453,12 +454,13 @@ nav .caret {
 .btn-d:hover,
 .btn-d:focus {
     color: #FFF;
+    z-index: 10;
     background: rgba(0, 0, 0, .3);
 }
 
-button {
+/* button {
     outline: none!important;
-}
+} */
 
 .btn-rd {
     border-radius: 40px;
@@ -524,7 +526,6 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -819,6 +820,10 @@ h4 {
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #333!important;
+}
+
+.btn-atomic-tangerine:hover, .btn-atomic-tangerine:focus {
+    font-size: 130%;
 }
 
 .btn-tangerine

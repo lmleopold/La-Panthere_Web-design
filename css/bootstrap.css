@@ -54,10 +54,10 @@ a {
     background-color: transparent
 }
 
-a:active,
+/* a:active,
 a:hover {
     outline: 0
-}
+} */
 
 abbr[title] {
     border-bottom: 1px dotted
@@ -3681,9 +3681,9 @@ textarea.input-lg {
 .btn:active.focus,
 .btn:active:focus,
 .btn:focus {
-    outline: thin dotted;
+    outline: dotted;
     outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px
+    outline-offset: -5px;
 }
 
 .btn.focus,
@@ -5223,9 +5223,9 @@ textarea.input-group-sm>.input-group-btn>.btn {
     border-radius: 4px
 }
 
-.navbar-toggle:focus {
+/* .navbar-toggle:focus {
     outline: 0
-}
+} */
 
 .navbar-toggle .icon-bar {
     display: block;
