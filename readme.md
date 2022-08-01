@@ -1,0 +1,1 @@
+Ce dossier correspond au site web de l'entreprise <str> La Panthère - Agence de Web-design basée à Lyon <str> avant audit.
