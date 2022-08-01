@@ -1,7 +1,7 @@
 # Version finale du site web de l'agence "La Panthère" Web-design
 
 Ce dossier correspond au site web de l'entreprise __La Panthère__ (Agence de Web-design basée à Lyon) ___après audit et amélioration du code___. 
-Cette amélioration du code avait pour objectif d'améliorer le positonnement du site dans les résultats de recherche pour la recherche “Entreprise webdesign Lyon” en prenant en compte:
+Cette optimisation du code avait pour objectif d'améliorer le positonnement du site dans les résultats de recherche pour la traine “Entreprise webdesign Lyon” en prenant en compte:
 - les bases du SEO / referencement naturel
 - l'accessibilité du site
 - les performances techniques
